@@ -29,8 +29,9 @@
   --bold: bold;
 }
 
-::-webkit-scrollbar {
-  display: none;
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 *,
